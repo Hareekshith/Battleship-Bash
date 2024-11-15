@@ -76,8 +76,8 @@ for i in range(3):
         bp += 1
 
 if ap > bp:
-    print(f"A {ap}")
+    print(f"A wins with {ap} points!")
 elif ap < bp:
-    print(f"B {bp}")
+    print(f"B wins with {bp} points!")
 else:
-    print(f"draw {ap}")
+    print(f"A and B draw themselves with {ap} points!")
